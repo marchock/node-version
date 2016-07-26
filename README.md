@@ -23,7 +23,7 @@ Add node module to the package.json
 
 ```javascript
   "scripts": {
-    "nodeVer": "npm-cnv"
+    "nodeVer": "./node_modules/.bin/npm-cnv"
   }
 ```
 
@@ -42,7 +42,7 @@ npm run dev
   "scripts": {
     "dev": "npm run nodeVer && npm run webpack:dev",
     "webpack:dev": "./node_modules/.bin/webpack --progress --profile --colors
-    "nodeVer": "npm-cnv"
+    "nodeVer": "./node_modules/.bin/npm-cnv"
   },
 ```
 

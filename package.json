@@ -1,6 +1,6 @@
 {
   "name": "npm-cnv",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Compare your global node version to project node version and provides a message if the two match or not.",
   "main": "index.js",
   "engines": {
