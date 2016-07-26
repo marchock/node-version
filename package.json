@@ -6,11 +6,8 @@
   "engines": {
     "node": "v5.5.0"
   },
-  "scripts": {
-    "nodeVer": "node ./index.js"
-  },
   "homepage": "https://github.com/marchock/npm-cnv#readme",
-  "author": "devomaki@gmail.com",
+  "author": "Ryan <devomaki@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "chalk": "^1.1.3"
