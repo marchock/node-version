@@ -1,6 +1,6 @@
 # node-version
 
-Compare global node version to project node version and provides a message if the two match or not.
+Compare your global node version to project node version and provides a message if the two match or not.
 
 
 
@@ -8,7 +8,7 @@ Compare global node version to project node version and provides a message if th
 
 
 ###Step 1
-Add the node version to be  used in the package.json
+Add the project node version requirement to the package.json
 
 ```javascript
   "engines": {
@@ -28,6 +28,7 @@ Call the node-version.js script inside package.json scripts
   }
 ```
 
+###Step 3
 npm run nodeVer
 
 This should provide an error message or success message, if the step above has not been completed then it will not work (engines).
