@@ -9,7 +9,8 @@
   "scripts": {
     "nodeVer": "node ./index.js"
   },
-  "author": "",
+  "homepage": "https://github.com/marchock/npm-cnv#readme",
+  "author": "Ryan Marchock",
   "license": "ISC",
   "dependencies": {
     "chalk": "^1.1.3"

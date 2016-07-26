@@ -5,6 +5,7 @@ Compare your global node version to project node version and provides a message 
 
 
 ##How to use
+npm install npm-cnv --save
 
 
 ###Step 1
@@ -24,7 +25,7 @@ Call the node-version.js script inside package.json scripts
 
 ```javascript
   "scripts": {
-    "nodeVer": "node ./node-version.js"
+    "nodeVer": "npm-cnv"
   }
 ```
 
