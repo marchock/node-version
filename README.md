@@ -3,7 +3,6 @@
 Compare your global node version to project node version and provides a message if the two match or not.
 
 
-
 ##How to use
 npm install npm-cnv --save
 
@@ -19,9 +18,8 @@ Add the required node version to be used in the project to the package.json
 
 
 
-
 ###Step 2
-Call the node-version.js script inside package.json scripts
+Add node module to the package.json
 
 ```javascript
   "scripts": {
@@ -44,7 +42,7 @@ npm run dev
   "scripts": {
     "dev": "npm run nodeVer && npm run webpack:dev",
     "webpack:dev": "./node_modules/.bin/webpack --progress --profile --colors
-    "nodeVer": "node ./node-version.js"
+    "nodeVer": "npm-cnv"
   },
 ```
 
