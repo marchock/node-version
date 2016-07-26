@@ -1,22 +1,17 @@
 {
-  "name": "node-version",
+  "name": "npm-cnv",
   "version": "1.0.0",
-  "description": "",
-  "main": "node-version.js",
+  "description": "Compare your global node version to project node version and provides a message if the two match or not.",
+  "main": "index.js",
   "engines": {
     "node": "v5.5.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "echo \"Error: no server specified\" && exit 1",
-    "dev": "npm run nodeVer && npm run webpack:dev",
-    "watch": "npm run nodeVer && npm run webpack:watch",
-    "build": "npm run nodeVer && npm run webpack:build",
-    "webpack:dev": "./node_modules/.bin/webpack --progress --profile --colors --display-error-details --display-cached",
-    "webpack:build": "./node_modules/.bin/webpack --progress --profile --colors --display-error-details --display-cached",
-    "webpack:watch": "./node_modules/.bin/webpack --progress --colors --watch",
     "nodeVer": "node ./nodeVersion.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
 }
