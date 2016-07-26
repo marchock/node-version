@@ -1,4 +1,4 @@
-# node-version
+# npm-compare-node-versions
 
 Compare your global node version to project node version and provides a message if the two match or not.
 
