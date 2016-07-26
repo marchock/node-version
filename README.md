@@ -8,7 +8,7 @@ Compare your global node version to project node version and provides a message 
 
 
 ###Step 1
-Add the project node version requirement to the package.json
+Add the required node version to be used in the project to the package.json
 
 ```javascript
   "engines": {
