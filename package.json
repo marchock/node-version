@@ -1,10 +1,13 @@
 {
   "name": "npm-cnv",
-  "version": "1.2.0",
+  "version": "1.1.1",
   "description": "Compare your global node version to project node version and provides a message if the two match or not.",
   "main": "index.js",
   "engines": {
     "node": "v5.5.0"
+  },
+  "bin": {
+    "npm-cnv": "./index.js"
   },
   "homepage": "https://github.com/marchock/npm-cnv#readme",
   "author": "Ryan <devomaki@gmail.com>",

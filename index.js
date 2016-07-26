@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var chalk = require('chalk'),
     projectNodeVersion = require('./package.json').engines.node,
     globalNodeVersion = process.version;
