@@ -4,7 +4,11 @@ Compare global node version to project node version and provides a message if th
 
 
 
-For every project add the node version to package.json, this is the project node version
+##How to use
+
+
+###Step 1
+Add the node version to be  used in the package.json
 
 ```javascript
   "engines": {
@@ -14,8 +18,8 @@ For every project add the node version to package.json, this is the project node
 
 
 
-##How to use
 
+###Step 2
 Call the node-version.js script inside package.json scripts
 
 ```javascript
